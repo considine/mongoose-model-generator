@@ -3,7 +3,7 @@ This is a tool that allows you to generate a mongoose model quickly
 without typing boiler plate code. All you need to do is enter the model itself:
 ## example
 ```javascript
-module.exports = require("./utils/createModel").createModel("tracker", 
+module.exports = require("mongoose-model-generator").createModel("tracker", 
 {
     name : {type : String, required : true},
     lastname : String,
